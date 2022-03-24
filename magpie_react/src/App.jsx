@@ -4,6 +4,7 @@ import './App.css'
 import { gsap } from "gsap";
 // import { PixiPlugin } from "gsap/PixiPlugin.js";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import TheNavbar from './misc/the_navbar';
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -32,6 +33,7 @@ function App() {
 
   return (
     <div className="App">
+      <TheNavbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
